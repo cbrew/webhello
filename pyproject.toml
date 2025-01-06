@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "webhello"
+version = "0.1.0"
+description = ""
+authors = ["Chris Brew <brewc@dy6nm2ng4q.legal.regn.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^3.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
